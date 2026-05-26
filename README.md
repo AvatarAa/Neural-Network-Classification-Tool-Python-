@@ -104,17 +104,6 @@ Configuration used in `src/IrisNeuralNetwork.py`:
   - `0.05`
   - `0.1`
 
-```mermaid
-flowchart TD
-    A[Input Features<br/>Sepal Length, Sepal Width,<br/>Petal Length, Petal Width]
-    B[Hidden Layer(s)]
-    C[Activation Function<br/>ReLU]
-    D[Output Layer]
-    E[Classification Result<br/>Iris Species]
-
-    A --> B --> C --> D --> E
-```
-
 ## Training Process
 
 1. Load the Iris CSV file.
